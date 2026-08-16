@@ -11,5 +11,5 @@ test('exports region-qualified Japanese glyphs', () => {
 
 test('renders a Japanese glyph in the common pin container', () => {
   const svg = decodeURIComponent(new PinGlyphIcon(JapanMapIcons.postOffice).toBitmapIcon().url);
-  assert.match(svg, /jp\.post_office|M4 4 L20 4/);
+  assert.ok(svg.includes(JapanMapIcons.postOffice.pathData));
 });

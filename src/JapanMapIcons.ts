@@ -3,16 +3,16 @@ import type { MapIconGlyph } from '@mapconductor/react-icons';
 
 /** Map symbols from the jp pack. Selection is always explicit. */
 export const JapanMapIcons = {
-  /** Japanese post office. */
+  /** Japanese post office map symbol. */
   postOffice: {
     id: 'jp.post_office',
-    pathData: 'M4 4 L20 4 L20 7 L4 7 Z M6 9 L18 9 L18 12 L14 12 L14 21 L10 21 L10 12 L6 12 Z',
+    pathData: 'M12 1 C18.08 1 23 5.92 23 12 C23 18.08 18.08 23 12 23 C5.92 23 1 18.08 1 12 C1 5.92 5.92 1 12 1 Z M12 4 C7.58 4 4 7.58 4 12 C4 16.42 7.58 20 12 20 C16.42 20 20 16.42 20 12 C20 7.58 16.42 4 12 4 Z M7 6 L17 6 L17 8.5 L7 8.5 Z M6 10 L18 10 L18 12.5 L13.5 12.5 L13.5 19 L10.5 19 L10.5 12.5 L6 12.5 Z',
     viewBoxSize: 24,
   },
-  /** Japanese police box or koban. */
+  /** Japanese koban, shown as crossed police batons. */
   policeBox: {
     id: 'jp.police_box',
-    pathData: 'M10 2 L14 2 L15 6 L20 9 L18 11 L18 21 L6 21 L6 11 L4 9 L9 6 Z M9 12 L15 12 L15 16 L9 16 Z',
+    pathData: 'M4 2 L12 9.5 L20 2 L22 4.5 L14.5 12 L22 19.5 L20 22 L12 14.5 L4 22 L2 19.5 L9.5 12 L2 4.5 Z',
     viewBoxSize: 24,
   },
   /** Shinto shrine. */
