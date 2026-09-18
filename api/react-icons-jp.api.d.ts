@@ -1,0 +1,23 @@
+/** Map symbols from the jp pack. Selection is always explicit. */
+declare const JapanMapIcons: {
+    /** Japanese post office map symbol. */
+    readonly postOffice: {
+        readonly id: "jp.post_office";
+        readonly pathData: "M12 1 C18.08 1 23 5.92 23 12 C23 18.08 18.08 23 12 23 C5.92 23 1 18.08 1 12 C1 5.92 5.92 1 12 1 Z M12 4 C7.58 4 4 7.58 4 12 C4 16.42 7.58 20 12 20 C16.42 20 20 16.42 20 12 C20 7.58 16.42 4 12 4 Z M7 6 L17 6 L17 8.5 L7 8.5 Z M6 10 L18 10 L18 12.5 L13.5 12.5 L13.5 19 L10.5 19 L10.5 12.5 L6 12.5 Z";
+        readonly viewBoxSize: 24;
+    };
+    /** Japanese koban, shown as crossed police batons. */
+    readonly policeBox: {
+        readonly id: "jp.police_box";
+        readonly pathData: "M4 2 L12 9.5 L20 2 L22 4.5 L14.5 12 L22 19.5 L20 22 L12 14.5 L4 22 L2 19.5 L9.5 12 L2 4.5 Z";
+        readonly viewBoxSize: 24;
+    };
+    /** Shinto shrine. */
+    readonly shrine: {
+        readonly id: "jp.shrine";
+        readonly pathData: "M3 3 L21 3 L21 6 L3 6 Z M5 8 L19 8 L19 11 L5 11 Z M7 6 L10 6 L9 21 L6 21 Z M14 6 L17 6 L18 21 L15 21 Z";
+        readonly viewBoxSize: 24;
+    };
+};
+
+export { JapanMapIcons };
